@@ -5,7 +5,6 @@
 layout: home
 ---
 
-# Privacy Policy
 ## Last updated: 21/01/2024
 Your privacy is important to us. This Privacy Policy outlines how Riverlog ("we", "us", or "our") collects, uses, and safeguards your personal information. By using Riverlog, you agree to the practices described in this Privacy Policy.
 
