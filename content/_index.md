@@ -4,6 +4,11 @@ title: RiverLog
 
 # Whitewater Diary for paddlers
 
+<img src='img/appstore.svg' />
+<img src='img/playstore.svg' />
+
+<img src='img/hero.svg' />
+
 ## Logging your runs seamlessly
 Seeking a spot to log the run? Riverlog makes tracking your paddling trips fun and easy. Just choose the section, and everything else fills in automatically – including the water level.
 
