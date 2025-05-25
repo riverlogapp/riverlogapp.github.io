@@ -1,41 +1,83 @@
+// body {
+//   background-color: #1E2529;
+//   color: #C6E4F6;
+//   font-family: Arial, Helvetica, sans-serif;
+//   margin: 0;
+// }
+
+// a {
+//   color: #C6E4F6;
+// }
+
+// .footer {
+//   background-color: #29333D;
+//   padding: 50px 10px;
+// }
+
+// .content {
+//   margin: 10px;
+// }
+
+// .wave-container {
+//   position: relative;
+//   width: 100%;
+//   height: 160px;
+//   overflow: hidden;
+//   line-height: 0;
+//   margin-top: -60px;
+// }
+
+// .wave {
+//   display: block;
+//   width: 100%;
+//   height: auto;
+// }
+
+// .header {
+//   display: flex;
+//   justify-content: space-between;
+//   margin: 10px;
+//   font-size: 1.5em;
+// }
+
+// Functions first
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Variable overrides second
+$primary: #C6E4F6;
+$enable-shadows: true;
+$prefix: "mo-";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.container {
+}
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm,
+.container {
+  max-width: 1100px;
+}
+.container-fluid {
+}
+.container-xl {
+}
+
 body {
   background-color: #1E2529;
-  color: #C6E4F6;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
-a {
+h1, h2, h3, h4 {
   color: #C6E4F6;
 }
 
-.footer {
-  background-color: #29333D;
-  padding: 50px 10px;
-}
-
-.content {
-  margin: 10px;
-}
-
-.wave-container {
-  position: relative;
-  width: 100%;
-  height: 160px;
-  overflow: hidden;
-  line-height: 0;
-  margin-top: -60px;
-}
-
-.wave {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.header {
+.navbar-brand {
+  color: #C6E4F6;
   display: flex;
-  justify-content: space-between;
-  margin: 10px;
-  font-size: 1.5em;
+  align-items: end;
+  column-gap: 10px;
 }
