@@ -75,9 +75,13 @@ h1, h2, h3, h4 {
   color: #C6E4F6;
 }
 
-.navbar-brand {
+.brand {
   color: #C6E4F6;
   display: flex;
   align-items: end;
   column-gap: 10px;
+}
+
+a {
+  text-decoration: none;
 }
